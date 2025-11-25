@@ -5,7 +5,7 @@ jobs:
   process:
     env:
       RUNNER_TRACKING_ID: 0
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
       - name: Handle Discussion
